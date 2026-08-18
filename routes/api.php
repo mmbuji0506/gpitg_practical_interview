@@ -1,3 +1,5 @@
+<?php
+
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RatingController;
 use App\Http\Controllers\PatientController;
