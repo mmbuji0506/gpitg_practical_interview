@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
 {
     User::factory(5)->create();
 
-    User::factory()->create(['email' => 'test@mmbuji.com', 'password' => bcrypt('password123')]);
+    User::factory()->create(['email' => 'mmbujijosameneza@gmail.com', 'password' => bcrypt('enockjosam')]);
 
     Product::insert([
         ['name'=>'Wireless Mouse','description'=>'Ergonomic mouse','price'=>15000,'created_at'=>now(),'updated_at'=>now()],
